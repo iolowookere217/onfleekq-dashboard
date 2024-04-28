@@ -4,9 +4,8 @@ import { sideNavData } from "../../utils/links";
 import LoadingSpinner from "../../components/loading";
 import ProtectedLayout from "../../components/layout/protected-layout";
 import Finance from "./finance-dashboard";
-// import Finance from "./moderator";
 
-const AdminRoutes = (
+const DashBoardRoutes = (
   <Route
     element={
       <ProtectedLayout navData={sideNavData}>
@@ -26,4 +25,4 @@ const AdminRoutes = (
   </Route>
 );
 
-export default AdminRoutes;
+export default DashBoardRoutes;
