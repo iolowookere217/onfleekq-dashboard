@@ -67,7 +67,9 @@ const SideBar = memo(({ navData, isNavOpen, setIsNavOpen, ...rest }) => {
               />
             </Flex>
 
-            <AiFillHome className="text-[#FF392B] text-3xl relative left-[1rem] top-[1rem]" />
+            <div className="bg-white rounded-lg p-1 relative top-[2rem] left-[1rem]">
+              <AiFillHome className="text-[#FF392B] text-3xl " />
+            </div>
             <Flex flexDir="column" gap="1.85rem" w="90%" mx="auto" mt="3rem">
               {navData?.map((item, index) => (
                 <SideNavLink

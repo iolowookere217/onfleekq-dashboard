@@ -16,21 +16,6 @@ import { RiNetflixFill } from "react-icons/ri";
 import { FaTaxi } from "react-icons/fa6";
 import { BsPlusSquareFill } from "react-icons/bs";
 
-const buttonData = [
-  {
-    text: "Make Payment",
-    color: "#B63A3A",
-  },
-  {
-    text: "Request Payment",
-    color: "#3AB690",
-  },
-  {
-    text: "Salary & Advance",
-    color: "#B63A3A",
-  },
-];
-
 const Finance = () => {
   return (
     <main className=" bg-yellow py-4 px-2 sm:px-4 md:px-6 rounded-md space-y-8 ">
@@ -77,9 +62,18 @@ const Finance = () => {
             <Chart />
           </div>
           <div className="flex items-center  shadow-lg justify-between gap-4">
-            <div className="flex rounded p-2 w-full h-full bg-[white]">
+            <div className="flex flex-col shadow-lg items-start justify-between gap-4 rounded-lg bg-[#FFFFFF]">
+              <div className="flex w-full justify-between items-center pt-4 pr-4">
+                <p className="text-[#434343] text-sm font-medium pl-6">
+                  Spent time
+                </p>
+                <div className="rounded  flex  items-center justify-center  w-auto h-auto py-1 px-2 bg-[#FF392B]">
+                  <p className=" text-xs text-white">4h 26min</p>
+                </div>
+              </div>
               <Chart2 />
             </div>
+
             <div className=" flex flex-col rounded shadow-lg p-4 gap-2 w-full h-full bg-[white]">
               <div className="flex gap-4">
                 <div>
@@ -125,7 +119,7 @@ const Finance = () => {
           </div>
         </div>
         <div className="rounded-md py-1 px-4 shadow-md space-y-2 w-full  text-gray-blue bg-[#F5F5FC]">
-          <div className="flex relative left-[18rem] top-[2rem] flex-col gap-4 w-full justify-between items-start">
+          <div className="flex relative left-[17rem] top-[2rem] flex-col gap-4 w-full justify-between items-start">
             <div className="items-start flex ">
               <BiEditAlt />
             </div>
