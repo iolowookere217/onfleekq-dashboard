@@ -35,4 +35,4 @@ CHALLENGES FACED:
 - I will need a little more time to work on the responsiveness of the dashboard.
 
 Link to the deployed project on varcel:
-https://onfleekq-3n2uawtfu-isaac-olowos-projects.vercel.app
+https://onfleekq-7s8q51kdf-isaac-olowos-projects.vercel.app
